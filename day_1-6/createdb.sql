@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS 30daysSQL;
+use 30daysSQL;
+CREATE TABLE IF NOT EXISTS Students(
+	ROLL_NO int(10),
+    STUDENT_NAME varchar(50),
+    AGE int(3)
+	);
